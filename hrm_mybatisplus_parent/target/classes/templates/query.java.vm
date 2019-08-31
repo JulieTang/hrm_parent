@@ -1,9 +1,0 @@
-package com.maggie.query;
-
-
-/**
- * @author ${author}
- * @since ${date}
- */
-public class ${table.entityName}Query extends BaseQuery{
-}
