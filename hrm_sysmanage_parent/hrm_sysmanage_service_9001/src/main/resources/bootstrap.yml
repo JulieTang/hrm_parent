@@ -1,16 +1,15 @@
-server:
-  port: 9001
-spring:
-  application:
-    name: hrm-sysmanage
-  datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/hrm_sysmanage
-      username: root
-      password: 123456
-mybatis-plus:
-  mapper-locations: classpath:com/maggie/mapper/*Mapper.xml
-  type-aliases-package: com.maggie.domain,com.maggie.query
+spring:  # 配置了如下的配置, 才能使用config客户端从springcloud的config-server集群中去拿配置...
+  profiles:
+    active: dev # 如果配置的是test, 那么在github上面应该有个一个application-sysmanage-test.yml的配置文件
+  cloud:
+    config:
+      #uri: http://localhost:1299 #配置configserver单个服务器 和下面的discovery的配置是互斥的,一个是单机配置, 一个是集群配置.
+      discovery:
+        enabled: true
+        service-id: config-server # 从Eureka通过服务名获取多个配置服务 和上面的uri的配置是互斥的,一个是单机配置, 一个是集群配置.
+      label: master #分支
+      name: application-sysmanage #那个文件 (在github上面的文件名前缀, 后面加上激活的profiles的文件名)
+      profile: ${spring.profiles.active} # 哪个环境 # 当前配置需要去github上面应该有个一个application-sysmanage-dev.yml的配置文件
 eureka:
   client:
     service-url:

@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: config-server
+  cloud:    # 配置了这个, 表示configserver的配置在github上面.
+    config:
+      server:
+        git:
+          uri: https://github.com/JulieTang/hrm_config.git
+          username: JulieTang
+          password: Tang0622
