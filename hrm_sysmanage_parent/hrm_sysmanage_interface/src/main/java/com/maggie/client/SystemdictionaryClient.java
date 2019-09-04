@@ -12,10 +12,10 @@ import java.util.List;
 
 /**
  * @author MaggieTang
- * @since 2019-08-30
+ * @since 2019-09-04
  */
 
-@FeignClient(value = "HRM-ZUUL-GATEWAY",configuration = FeignClientsConfiguration.class,
+@FeignClient(value = "ZUUL-GATEWAY",configuration = FeignClientsConfiguration.class,
         fallbackFactory = SystemdictionaryClientHystrixFallbackFactory.class)
 @RequestMapping("/product/systemdictionary")
 public interface SystemdictionaryClient {
@@ -24,7 +24,7 @@ public interface SystemdictionaryClient {
      * @param systemdictionary  传递的实体
      * @return Ajaxresult转换结果
      */
-    @RequestMapping(value="/add",method= RequestMethod.POST)
+    @RequestMapping(value="/save",method= RequestMethod.POST)
     AjaxResult save(Systemdictionary systemdictionary);
 
     /**

@@ -1,11 +1,5 @@
 server:
-  port: 1299
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka
-  instance:
-    prefer-ip-address: true
+  port: 8848
 spring:
   application:
     name: config-server
@@ -16,3 +10,9 @@ spring:
           uri: https://github.com/JulieTang/hrm_config.git
           username: JulieTang
           password: Tang0622
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true

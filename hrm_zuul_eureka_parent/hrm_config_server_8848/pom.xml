@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hrm_config_server_1299</artifactId>
+    <artifactId>hrm_config_server_8848</artifactId>
 
     <dependencies>
         <!--springboot支持-->

@@ -1,4 +1,6 @@
 spring:  # 配置了如下的配置, 才能使用config客户端从springcloud的config-server集群中去拿配置...
+  profiles:
+    active: dev
   cloud:
     config:
       #uri: http://localhost:1299 #配置configserver单个服务器 和下面的discovery的配置是互斥的,一个是单机配置, 一个是集群配置.
@@ -8,8 +10,6 @@ spring:  # 配置了如下的配置, 才能使用config客户端从springcloud�
       label: master #分支
       name: application-zuul #那个文件 (在github上面的文件名前缀, 后面加上激活的profiles的文件名)
       profile: ${spring.profiles.active} # 哪个环境
-  profiles:
-    active: dev
 eureka:
   client:
     service-url:

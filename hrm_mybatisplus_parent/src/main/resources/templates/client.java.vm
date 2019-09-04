@@ -15,7 +15,7 @@ import java.util.List;
  * @since ${date}
  */
 
-@FeignClient(value = "HRM-ZUUL-GATEWAY",configuration = FeignClientsConfiguration.class,
+@FeignClient(value = "ZUUL-GATEWAY",configuration = FeignClientsConfiguration.class,
         fallbackFactory = ${entity}ClientHystrixFallbackFactory.class)
 @RequestMapping("/product/${table.entityPath}")
 public interface ${entity}Client {
@@ -24,7 +24,7 @@ public interface ${entity}Client {
      * @param ${table.entityPath}  传递的实体
      * @return Ajaxresult转换结果
      */
-    @RequestMapping(value="/add",method= RequestMethod.POST)
+    @RequestMapping(value="/save",method= RequestMethod.POST)
     AjaxResult save(${entity} ${table.entityPath});
 
     /**

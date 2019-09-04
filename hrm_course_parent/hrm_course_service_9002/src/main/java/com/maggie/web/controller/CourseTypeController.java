@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * @author MaggieTang
- * @since 2019-08-30
+ * @since 2019-09-04
  */
 
 @RestController
@@ -78,16 +78,27 @@ public class CourseTypeController {
 
 
     /**
-    * 分页查询数据
+    * 普通分页查询数据
     *
     * @param query 查询对象
     * @return PageList 分页对象
     */
-    @RequestMapping(value = "/json",method = RequestMethod.POST)
+    /*@RequestMapping(value = "/json",method = RequestMethod.POST)
     public PageList<CourseType> json(@RequestBody CourseTypeQuery query)
     {
         Page<CourseType> page = new Page<CourseType>(query.getPage(),query.getRows());
             page = courseTypeService.selectPage(page);
             return new PageList<CourseType>(page.getTotal(),page.getRecords());
+    }*/
+
+    /**
+     * 高级查询 + 分页 + 关联查询
+     * @param query
+     * @return
+     */
+    @RequestMapping(value = "/json",method = RequestMethod.POST)
+    public PageList<CourseType> json(@RequestBody CourseTypeQuery query)
+    {
+        return courseTypeService.selectListPage(query);
     }
 }

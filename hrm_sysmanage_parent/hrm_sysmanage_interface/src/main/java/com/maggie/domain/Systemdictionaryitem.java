@@ -13,7 +13,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author MaggieTang
- * @since 2019-08-30
+ * @since 2019-09-04
  */
 @TableName("t_systemdictionaryitem")
 public class Systemdictionaryitem extends Model<Systemdictionaryitem> {

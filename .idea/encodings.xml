@@ -3,6 +3,8 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_basic_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_course_parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface" charset="UTF-8" />
@@ -12,7 +14,7 @@
     <file url="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_zuul_eureka_parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527" charset="UTF-8" />
   </component>

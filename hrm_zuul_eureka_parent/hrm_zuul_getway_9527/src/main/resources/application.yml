@@ -1,3 +1,3 @@
 spring:
   application:
-    name: zuul-getway
+    name: zuul-gateway

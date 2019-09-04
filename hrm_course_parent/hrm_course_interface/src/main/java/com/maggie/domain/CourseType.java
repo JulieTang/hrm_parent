@@ -1,5 +1,6 @@
 package com.maggie.domain;
 
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.enums.IdType;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.activerecord.Model;
@@ -12,7 +13,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author MaggieTang
- * @since 2019-08-30
+ * @since 2019-09-04
  */
 @TableName("t_course_type")
 public class CourseType extends Model<CourseType> {
@@ -31,6 +32,8 @@ public class CourseType extends Model<CourseType> {
      * 父ID
      */
     private Long pid;
+    @TableField(exist = false) //数据库中没有字段和他匹配，就是用来存储关联查询值
+    private CourseType parent;
     /**
      * 图标
      */
@@ -88,6 +91,14 @@ public class CourseType extends Model<CourseType> {
 
     public void setPid(Long pid) {
         this.pid = pid;
+    }
+
+    public CourseType getParent() {
+        return parent;
+    }
+
+    public void setParent(CourseType parent) {
+        this.parent = parent;
     }
 
     public String getLogo() {
