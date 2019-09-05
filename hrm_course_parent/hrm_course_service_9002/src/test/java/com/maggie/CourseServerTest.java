@@ -1,6 +1,7 @@
 package com.maggie;
 
-import com.maggie.service.ICourseTypeService;
+import com.maggie.hrm.Course9002Application;
+import com.maggie.hrm.service.ICourseTypeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

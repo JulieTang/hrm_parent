@@ -8,4 +8,4 @@ spring:
     password: 123456
 mybatis-plus:
   mapper-locations: classpath:com/maggie/mappermapper/*Mapper.xml
-  type-aliases-package: com.maggie.domain,com.maggie.query
+  type-aliases-package: com.maggie.hrm.domain,com.maggie.hrm.query

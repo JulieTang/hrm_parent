@@ -2,9 +2,9 @@ package ${package.Controller};
 
 import ${package.Service}.${table.serviceName};
 import ${package.Entity}.${entity};
-import com.maggie.query.${entity}Query;
-import com.maggie.util.AjaxResult;
-import com.maggie.util.PageList;
+import com.maggie.hrm.query.${entity}Query;
+import com.maggie.hrm.util.AjaxResult;
+import com.maggie.hrm.util.PageList;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,23 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f652c8-59fb-4d37-9959-a3cb05665dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap_bak.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap_bak.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/bootstrap_bak.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d5f652c8-59fb-4d37-9959-a3cb05665dec" name="Default Changelist" comment="2019.09.04提交代码--机构入驻之前">
+      <change afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/query/SystemdictionaryQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/client/FastDfsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/hrm/client/FastDfsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/client/FastDfsClientHystrixFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/hrm/client/FastDfsClientHystrixFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/query/BaseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/query/BaseQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/BitStatesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/BitStatesUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/CodeGenerateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/CodeGenerateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/LetterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/LetterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/PageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/PageList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/PropertiesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/PropertiesHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/StrUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/StrUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/encrypt/DES.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/encrypt/DES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/encrypt/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/encrypt/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_basic_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/client/CourseTypeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/hrm/client/CourseTypeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/client/CourseTypeClientHystrixFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/hrm/client/CourseTypeClientHystrixFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/domain/CourseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/hrm/domain/CourseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/query/CourseTypeQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/hrm/query/CourseTypeQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/hrm_mybatisplus_parent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/Course9002Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/Course9002Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/mapper/CourseTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/mapper/CourseTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/service/ICourseTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/service/ICourseTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/service/impl/CourseTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/service/impl/CourseTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/web/controller/CourseTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/web/controller/CourseTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap_bak.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap_bak.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/mapper/CourseTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/test/java/com/maggie/CourseServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/test/java/com/maggie/CourseServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_course_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_course_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-course.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-course.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-sysmanage.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-sysmanage.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/ClientHystrixFallbackFactory.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/ClientHystrixFallbackFactory.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/client.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/client.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/controller.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/query.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/query.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/client/SystemdictionaryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/client/SystemdictionaryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/client/SystemdictionaryClientHystrixFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/client/SystemdictionaryClientHystrixFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/client/SystemdictionaryitemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/client/SystemdictionaryitemClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/client/SystemdictionaryitemClientHystrixFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/client/SystemdictionaryitemClientHystrixFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/domain/Systemdictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/domain/Systemdictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/domain/Systemdictionaryitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/domain/Systemdictionaryitem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/query/SystemdictionaryQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/query/SystemdictionaryitemQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/query/SystemdictionaryitemQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/SysManage9001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/SysManage9001Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/mapper/SystemdictionaryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/mapper/SystemdictionaryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/mapper/SystemdictionaryitemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/mapper/SystemdictionaryitemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/service/ISystemdictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/service/ISystemdictionaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/service/ISystemdictionaryitemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/service/ISystemdictionaryitemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/service/impl/SystemdictionaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/service/impl/SystemdictionaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/service/impl/SystemdictionaryitemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/service/impl/SystemdictionaryitemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/web/controller/SystemdictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/web/controller/SystemdictionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/web/controller/SystemdictionaryitemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/web/controller/SystemdictionaryitemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap_bak.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap_bak.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/mapper/SystemdictionaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/hrm/mapper/SystemdictionaryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/mapper/SystemdictionaryitemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/hrm/mapper/SystemdictionaryitemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/test/java/com/maggie/service/SystemdictionaryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/test/java/com/maggie/hrm/service/SystemdictionaryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_sysmanage_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_sysmanage_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/src/main/java/com/maggie/ConfigServer8848Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/src/main/java/com/maggie/hrm/ConfigServer8848Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/java/com/maggie/Eureka7001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/java/com/maggie/hrm/Eureka7001Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/Zuul9527Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/hrm/Zuul9527Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/config/DocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/hrm/config/DocumentationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/hrm/config/GlobalCorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/hrm/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrm_zuul_eureka_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hrm_zuul_eureka_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,6 +114,10 @@
     <ignored path="$PROJECT_DIR$/hrm_course_parent/hrm_course_service/target/" />
     <ignored path="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/target/" />
     <ignored path="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fasttdfs_interface/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/target/" />
+    <ignored path="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +143,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/SysManage9001Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="133">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/Course9002Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseTypeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/config/MybatisPlusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/mapper/CourseTypeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/config/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/web/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/hrm/client/FastDfsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-178">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/hrm/client/FastDfsClientHystrixFallbackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -96,13 +252,33 @@
     <findStrings>
       <find>rb</find>
       <find>cn.itsource.aigou</find>
-      <find>\</find>
       <find>application-sysmanage</find>
+      <find>\</find>
+      <find>Department</find>
+      <find>department</find>
+      <find>for</find>
+      <find>formVisible</find>
+      <find>formRules</find>
+      <find>field</find>
+      <find>entity</find>
+      <find>TableField</find>
+      <find>TableNa</find>
+      <find>entityPath</find>
+      <find>course</find>
+      <find>${table.entityPath}</find>
+      <find>/${table.entityPath}</find>
+      <find>formVis</find>
+      <find>com.maggie</find>
     </findStrings>
     <replaceStrings>
       <replace>com.maggie</replace>
-      <replace>\\</replace>
       <replace>application-course</replace>
+      <replace>sysmanage</replace>
+      <replace>\\</replace>
+      <replace>${entity}</replace>
+      <replace>${table.entityPath}formVisible</replace>
+      <replace>${table.entityPath}formRules</replace>
+      <replace>${table.entityPath}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -112,57 +288,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/CodeGenerateUtils.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/LetterUtil.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/PropertiesHelper.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/StrUtils.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_management_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_management_service/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/Zuul9527Application.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/PageList.java" />
-        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/query/BaseQuery.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/query.java.vm" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/controller.java.vm" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/ClientHystrixFallbackFactory.java.vm" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/client.java.vm" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/domain/Systemdictionary.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/domain/Systemdictionaryitem.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/client/SystemdictionaryClientHystrixFallbackFactory.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/test/java/com/maggie/service/SystemdictionaryService.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/test/java/com/maggie/service/SystemdictionaryServiceTest.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/java/com/maggie/SysManage9001Application.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service/src/main/java/com/maggie/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/client/SystemdictionaryClient.java" />
+        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/client/SystemdictionaryitemClient.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/config/DocumentationConfig.java" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/java/com/maggie/ConfigServer1299Application.java" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/Course9002Application.java" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig.properties" />
-        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/java/GenteratorCode.java" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/test/java/com/maggie/CourseServerTest.java" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/bootstrap_bak.yml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/pom.xml" />
-        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/domain/Course.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/views/Course.vue" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/vo.java.vm" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/domain.java.vm" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/view.vue.vm" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/client.java.vm" />
         <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/java/GenteratorCode.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/web/controller/CourseDetailController.java" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/view.java.vm" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/web/controller/CourseTypeController.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/mapper/CourseTypeMapper.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/service/ICourseTypeService.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/domain/CourseType.java" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/service/impl/CourseTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/mapper/CourseTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/client/FastDfsClient.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/client/FastDfsClientHystrixFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/query/BaseQuery.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/util/AjaxResult.java" />
+        <option value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-course.properties" />
+        <option value="$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-sysmanage.properties" />
+        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseTypeMapper.xml" />
       </list>
     </option>
   </component>
@@ -192,18 +368,18 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="420" />
-    <option name="y" value="8" />
-    <option name="width" value="1346" />
-    <option name="height" value="835" />
+    <option name="x" value="1074" />
+    <option name="width" value="974" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,55 +390,34 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -270,12 +425,76 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_service_9003" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_service_9003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_service_9003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_service_9003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_basic_fastdfs_service_9003" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
               <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
               <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maggie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -289,51 +508,27 @@
             <path>
               <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service_9001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service_9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service_9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="hrm_sysmanage_service_9001" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_course_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_course_service_9002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hrm_sysmanage_parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -341,29 +536,35 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567356365807" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../smallweigit-vue-element-admin-master/vue-element-admin" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567658886596" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.19570053" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.side.proportion" value="0.3438639" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MaggieJava4IDEAWorkSpace\hrm_parent\hrm_zuul_eureka_parent" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.maggie.hrm" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.maggie.config" />
+      <recent name="com.maggie.client" />
       <recent name="com.maggie" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MaggieJava4IDEAWorkSpace\git\hrm_parent\hrm_course_parent\hrm_course_service_9002\src\main\resources" />
-      <recent name="D:\MaggieJava4IDEAWorkSpace\git\hrm_parent\hrm_sysmanage_parent\hrm_sysmanage_service_9001\src\main\resources" />
+      <recent name="D:\MaggieJava4IDEAWorkSpace\git\hrm_parent\hrm_mybatisplus_parent\src\main\resources\templates" />
+      <recent name="D:\MaggieJava4IDEAWorkSpace\git\hrm_parent\hrm_mybatisplus_parent\src\main\resources" />
+      <recent name="D:\MaggieJava4IDEAWorkSpace\git\hrm_parent\hrm_basic_parent\hrm_basic_fastdfs_service_9003\src\main\resources" />
       <recent name="D:\MaggieJava4IDEAWorkSpace\git\hrm_parent\hrm_zuul_eureka_parent\hrm_zuul_getway_9527\src\main\resources" />
-      <recent name="D:\MaggieJava4IDEAWorkSpace\hrm_parent\hrm_course_parent\hrm_course_service_9002\src\main\resources" />
-      <recent name="D:\MaggieJava4IDEAWorkSpace\hrm_parent\hrm_mybatisplus_parent\src\main\resources" />
+      <recent name="D:\MaggieJava4IDEAWorkSpace\git\hrm_parent\hrm_zuul_eureka_parent\hrm_eureka_7001\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,15 +586,17 @@
     <option name="contentProportion" value="0.20292208" />
   </component>
   <component name="RunManager" selected="Spring Boot.Course9002Application">
-    <configuration name="ConfigServer1299Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hrm_config_server_1299" />
+    <configuration name="ConfigServer8848Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hrm_config_server_8848" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.maggie.*" />
+          <option name="PATTERN" value="com.maggie.hrm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.ConfigServer1299Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.hrm.ConfigServer8848Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -402,11 +605,13 @@
       <module name="hrm_course_service_9002" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.maggie.*" />
+          <option name="PATTERN" value="com.maggie.hrm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.Course9002Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.hrm.Course9002Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -415,11 +620,13 @@
       <module name="hrm_eureka_7001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.maggie.*" />
+          <option name="PATTERN" value="com.maggie.hrm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.Eureka7001Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.hrm.Eureka7001Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -428,11 +635,13 @@
       <module name="hrm_sysmanage_service_9001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.maggie.*" />
+          <option name="PATTERN" value="com.maggie.hrm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.SysManage9001Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.hrm.SysManage9001Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -441,18 +650,20 @@
       <module name="hrm_zuul_getway_9527" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.maggie.*" />
+          <option name="PATTERN" value="com.maggie.hrm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.Zuul9527Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.maggie.hrm.Zuul9527Application" />
+      <option name="VM_PARAMETERS" value="-Xmx256m -Xms128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ConfigServer1299Application" />
       <item itemvalue="Spring Boot.Eureka7001Application" />
+      <item itemvalue="Spring Boot.ConfigServer8848Application" />
       <item itemvalue="Spring Boot.Zuul9527Application" />
       <item itemvalue="Spring Boot.SysManage9001Application" />
       <item itemvalue="Spring Boot.Course9002Application" />
@@ -462,7 +673,7 @@
         <item itemvalue="Spring Boot.Course9002Application" />
         <item itemvalue="Spring Boot.SysManage9001Application" />
         <item itemvalue="Spring Boot.Zuul9527Application" />
-        <item itemvalue="Spring Boot.ConfigServer1299Application" />
+        <item itemvalue="Spring Boot.ConfigServer8848Application" />
         <item itemvalue="Spring Boot.Eureka7001Application" />
       </list>
     </recent_temporary>
@@ -486,8 +697,39 @@
       <workItem from="1567175667655" duration="3224000" />
       <workItem from="1567212815440" duration="659000" />
       <workItem from="1567265464601" duration="592000" />
-      <workItem from="1567350325960" duration="5530000" />
+      <workItem from="1567350325960" duration="6495000" />
+      <workItem from="1567402117127" duration="6376000" />
+      <workItem from="1567473087459" duration="10246000" />
+      <workItem from="1567494724158" duration="9232000" />
+      <workItem from="1567514609742" duration="343000" />
+      <workItem from="1567528053437" duration="4841000" />
+      <workItem from="1567533289833" duration="1203000" />
+      <workItem from="1567560067649" duration="21829000" />
+      <workItem from="1567616415869" duration="2951000" />
+      <workItem from="1567644285302" duration="4637000" />
     </task>
+    <task id="LOCAL-00001" summary="添加了各种配置文件">
+      <created>1567356446097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567356446097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加了解决跨域问题的配置文件">
+      <created>1567357128775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567357128775</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2019.09.04提交代码--机构入驻之前">
+      <created>1567619189521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567619189521</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -505,7 +747,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38063000" />
+    <option name="totallyTimeSpent" value="100686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,6 +760,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -525,27 +768,27 @@
       <window_info id="Favorites" order="3" sideWeight="0.50097847" side_tool="true" weight="0.15671642" />
       <window_info id="Web" order="4" sideWeight="0.50097847" side_tool="true" weight="0.15671642" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49902153" weight="0.1130064" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49902153" visible="true" weight="0.38006395" />
       <window_info id="Structure" order="7" sideWeight="0.50097847" side_tool="true" weight="0.15671642" />
       <window_info id="JRebel" order="8" sideWeight="0.50097847" side_tool="true" weight="0.15671642" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32905483" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32750583" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32905483" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32672113" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49946696" weight="0.32788798" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32905483" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.91724944" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32905483" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.33605602" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3990665" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.3215909" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.32983682" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.31271878" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.50053304" side_tool="true" weight="0.32788798" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.4142357" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
@@ -561,377 +804,332 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加了各种配置文件" />
+    <MESSAGE value="添加了解决跨域问题的配置文件" />
+    <MESSAGE value="2019.09.04提交代码--机构入驻之前" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.09.04提交代码--机构入驻之前" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/service/impl/SystemdictionaryitemServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/templates/client.java.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/service/ISystemdictionaryitemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/service/ISystemdictionaryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/mapper/SystemdictionaryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/hrm/mapper/TenantTypeMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/mapper/SystemdictionaryitemMapper.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/com/maggie/hrm/mapper/TenantMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="323">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/mapper/SystemdictionaryitemMapper.java">
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap_bak.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/query/BaseQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" selection-start-column="8" selection-end-column="26" />
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/src/main/java/com/maggie/hrm/util/AjaxResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/config/Swagger2.java">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="84" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/web/controller/SystemdictionaryController.java">
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseMarketMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseResourceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/java/GenteratorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-course.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig-sysmanage.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/src/main/java/com/maggie/hrm/client/DepartmentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="-146">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/java/com/maggie/Eureka7001Application.java">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="380">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/resources/mybatisplusconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_mybatisplus_parent/src/main/java/GenteratorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2242">
-          <caret line="121" column="36" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/client/CourseTypeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/client/CourseTypeClientHystrixFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/domain/CourseType.java">
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_util/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/src/main/java/com/maggie/query/CourseTypeQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/mapper/CourseTypeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/service/ICourseTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/mapper/CourseTypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/test/java/com/maggie/CourseServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/MysqlIO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20672">
-          <caret line="1152" selection-start-line="1152" selection-end-line="1152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/test/java/com/maggie/service/SystemdictionaryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" selection-start-line="10" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/config/DocumentationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/Zuul9527Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/bootstrap_bak.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/java/com/maggie/ConfigServer1299Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/application_bak.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap_bak.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap_bak.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_1299/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/SysManage9001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="65" selection-end-column="21" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="-32">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="45" selection-start-line="12" selection-start-column="4" selection-end-line="45" />
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/Course9002Application.java">
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_eureka_7001/src/main/java/com/maggie/hrm/Eureka7001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_config_server_8848/src/main/java/com/maggie/hrm/ConfigServer8848Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_zuul_eureka_parent/hrm_zuul_getway_9527/src/main/java/com/maggie/hrm/Zuul9527Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/java/com/maggie/hrm/SysManage9001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/Course9002Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_service_9003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/hrm/client/FastDfsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_basic_parent/hrm_basic_fastdfs_interface/src/main/java/com/maggie/hrm/client/FastDfsClientHystrixFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/mapper/CourseTypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/web/controller/CourseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="92" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrm_sysmanage_parent/hrm_sysmanage_service_9001/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/java/com/maggie/hrm/config/MybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrm_course_parent/hrm_course_service_9002/src/main/resources/com/maggie/hrm/mapper/CourseTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -944,7 +1142,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3438639" />
               </list>
             </option>
           </splitter-proportions>
@@ -952,11 +1150,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web (hrm_basic_fastdfs_service_9003)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3438639" />
               </list>
             </option>
           </splitter-proportions>
@@ -967,7 +1165,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3438639" />
               </list>
             </option>
           </splitter-proportions>
@@ -979,7 +1177,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3438639" />
               </list>
             </option>
           </splitter-proportions>
@@ -987,11 +1185,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>hrm_config_server</last-edited>
+          <last-edited>hrm_basic_fastdfs_interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3438639" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1016,7 +1214,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3438639" />
               </list>
             </option>
           </splitter-proportions>
