@@ -1,0 +1,34 @@
+package com.maggie.hrm.client;
+
+import com.maggie.hrm.util.AjaxResult;
+import feign.hystrix.FallbackFactory;
+import org.springframework.stereotype.Component;
+import org.springframework.web.multipart.MultipartFile;
+
+/**
+ * @author MaggieTang
+ * @since 2019-08-30
+ */
+@Component
+public class FastDfsClientHystrixFallbackFactory implements FallbackFactory<FastDfsClient> {
+
+    @Override
+    public FastDfsClient create(Throwable throwable) {
+        return new FastDfsClient() {
+            @Override
+            public String upload(MultipartFile multipartFile) {
+                return null;
+            }
+
+            @Override
+            public AjaxResult delete(String path) {
+                return null;
+            }
+
+            @Override
+            public void download(String path) {
+
+            }
+        };
+    }
+}

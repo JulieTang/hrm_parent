@@ -5,6 +5,8 @@ import com.maggie.hrm.domain.CourseType;
 import com.maggie.hrm.query.CourseTypeQuery;
 import com.maggie.hrm.util.PageList;
 
+import java.util.List;
+
 /**
  * <p>
  * 课程目录 服务类
@@ -21,4 +23,12 @@ public interface ICourseTypeService extends IService<CourseType> {
      * @return
      */
     PageList<CourseType> selectListPage(CourseTypeQuery query);
+
+    /**
+     * 方案一：递归（根据传入的id作为父类id,查询所有的子课程类型）
+     * 方案二：循环
+     * @param pid
+     * @return
+     */
+   List<CourseType> queryTypeTree(Long pid);
 }

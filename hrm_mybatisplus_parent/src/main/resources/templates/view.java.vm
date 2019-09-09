@@ -4,7 +4,7 @@
         <el-col :span="24" class="toolbar" style="padding-bottom: 0px;">
             <el-form :model="filters" :inline="true">
                 <el-form-item>
-                    <el-input v-model="filters.keywords" placeholder="关键字"></el-input>
+                    <el-input v-model="filters.keyword" placeholder="关键字"></el-input>
                 </el-form-item>
                 <el-form-item>
                     <el-button type="primary" v-on:click="get${entity}s">查询</el-button>
@@ -102,7 +102,7 @@
                 listLoading: false,
                 //查询对象
                 filters: {
-                    keywords: ''
+                    keyword: ''
                 },
                 page: 1,//当前页,要传递到后台的
                 total: 0, //分页总数

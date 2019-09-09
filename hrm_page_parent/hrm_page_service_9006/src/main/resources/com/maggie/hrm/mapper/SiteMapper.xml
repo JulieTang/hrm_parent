@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maggie.hrm.mapper.SiteMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.maggie.hrm.domain.Site">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="url" property="url"/>
+        <result column="description" property="description"/>
+        <result column="sn" property="sn"/>
+    </resultMap>
+    <!--List<Site> loadListPage(Pagination page, @Param("query")SiteQuery query);-->
+    <select id="loadListPage" parameterType="com.maggie.hrm.query.SiteQuery" resultMap="BaseResultMap">
+        SELECT *
+        FROM t_site
+        <include refid="whereSql"></include>
+    </select>
+
+
+    <sql id="whereSql">
+        <where>
+            <if test="query.keyword != null and query.keyword != ''">
+                and (name like concat("%",#{query.keyword},"%")  or description like concat("%",#{query.keyword},"%")
+                or sn like concat("%",#{query.keyword},"%") or url like concat("%",#{query.keyword},"%"))
+            </if>
+        </where>
+    </sql>
+</mapper>

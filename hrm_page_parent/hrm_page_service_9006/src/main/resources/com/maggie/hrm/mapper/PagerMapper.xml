@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maggie.hrm.mapper.PagerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.maggie.hrm.domain.Pager">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="alias" property="alias"/>
+        <result column="type" property="type"/>
+        <result column="physicalPath" property="physicalPath"/>
+        <result column="createTime" property="createTime"/>
+        <result column="site_id" property="siteId"/>
+        <result column="template_url" property="templateUrl"/>
+    </resultMap>
+    <!--List<Pager> loadListPage(Pagination page, PagerQuery query);-->
+    <select id="loadListPage" parameterType="com.maggie.hrm.query.PagerQuery" resultMap="PagerMap">
+        SELECT
+        p.*, s.id sid,
+        s. NAME sname
+        FROM
+        t_pager p
+        LEFT JOIN t_site s ON p.site_id = s.id
+        <include refid="whereSql"></include>
+    </select>
+
+    <sql id="whereSql">
+        <where>
+            <if test="query.keyword!=null || query.keyword!=''">
+                and (p.name like concat("%",#{query.keyword},"%") or p.alias like concat("%",#{query.keyword},"%") or
+                s.name like concat("%",#{query.keyword},"%"))
+            </if>
+        </where>
+    </sql>
+
+    <resultMap id="PagerMap" type="com.maggie.hrm.domain.Pager">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="alias" property="alias"/>
+        <result column="type" property="type"/>
+        <result column="physicalPath" property="physicalPath"/>
+        <result column="createTime" property="createTime"/>
+        <result column="template_url" property="templateUrl"/>
+        <result column="site_id" property="siteId"/>
+        <association property="site" javaType="com.maggie.hrm.domain.Site">
+            <id column="sid" property="id"/>
+            <result column="sname" property="name"/>
+        </association>
+    </resultMap>
+</mapper>

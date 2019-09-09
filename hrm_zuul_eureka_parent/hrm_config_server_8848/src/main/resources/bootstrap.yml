@@ -6,10 +6,15 @@ spring:
   cloud:    # 配置了这个, 表示configserver的配置在github上面.
     config:
       server:
+#        native:
+#          search-locations: D:\MaggieJava4IDEAWorkSpace\git\hrm_config
+#      profile:
+#        native
         git:
           uri: https://github.com/JulieTang/hrm_config.git
           username: JulieTang
           password: Tang0622
+
 eureka:
   client:
     service-url:

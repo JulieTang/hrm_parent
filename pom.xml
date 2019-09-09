@@ -15,6 +15,7 @@
         <module>hrm_zuul_eureka_parent</module>
         <module>hrm_mybatisplus_parent</module>
         <module>hrm_course_parent</module>
+        <module>hrm_page_parent</module>
     </modules>
 
     <properties>
